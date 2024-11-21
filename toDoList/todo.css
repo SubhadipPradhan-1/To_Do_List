@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-size:60px;
+}
+#big_container{
+    height: 500px;
+    margin: auto;
+    width: 700px; ;
+}
+.display{
+    display: grid;
+    grid-template-columns: 250PX 250PX 100px;
+    margin-top: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-size:  30px;
+}
+#input, #Date{
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+#Add_button{
+    border-radius: 5px;
+   background-color: rgb(38, 119, 11);
+   font-size: 20px;
+}
+#Add_button:hover{
+   background-color: rgb(126, 8, 236);
+   font-size: 30px;
+}
+#delete_botton{
+    border-radius: 8px;
+   background-color: rgb(139, 66, 66);
+   font-size: 20px;
+   padding: 10px 0px;
+   border: none;
+}
+
+
